@@ -3,16 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>Quiz Login</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div id="home" class="flex-center flex-column">
-            <h1>Quick quiz</h1>
-            <a class="btn" href="game.html">Play</a>
-            <a class="btn" href="highscores.html">High Scores</a>
-            <a href="login.html">login</a>
+    <div class="container ">
+        <div class="justify-center flex-column ">
+            <div class=" justify-center flex-column login-pic js-tilt" >
+                <img src="login-image.png" alt="IMG">
+               
+             </div>
+             
+             <div class="login-inputs">
+                <div class="login-form-title"><h1>Welcome</h1></div>
+                 <form action="" class="modal-content animate">
+                    <div class="justify-center flex-column">
+                        <input type="text" class="inputs" placeholder="Enter Username" name="uname" required>
+                
+                        <input type="password" class="inputs" placeholder="Enter Password" name="psw" required>
+                  
+                        <button type="submit" class="login-btn ">Login</button>
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                      </div>
+                      <div style="background-color:#f1f1f1">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span><br>
+                        <span class="psw">skujy <a href="app.html">my bypass</a></span>
+                        
+                      </div>
+                    </form>
+                 </form>
+
+             </div>
+
         </div>
     </div>
     
