@@ -24,4 +24,46 @@
 .choice-text    
 {
     padding: 1.5rem;
+    width: 100%;
+}
+
+.correct 
+{background-color:#28a745 ;}
+
+.incorrect
+{
+    background-color: #dc3545;
+}
+
+/* hud*/
+
+#hud
+{
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix
+{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text
+{
+    text-align: center;
+}
+/*progressbar*/
+#progressBar
+{
+    width: 20em;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+    margin-top: 1.5em;
+}
+
+#progress-bar-full
+{
+    height: 3.4rem;
+    width: 0%;
+    background-color: #56a5eb;
 }
